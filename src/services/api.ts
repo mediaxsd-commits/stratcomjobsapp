@@ -1,5 +1,5 @@
 // MongoDB API service for Job Claimer app - Persistent Storage Ready
-const API_BASE = import.meta.env.VITE_API_BASE_URL || 'https://stratcomjobsend.vercel.app/api';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || '';
 
 export interface Job {
   id: string;
