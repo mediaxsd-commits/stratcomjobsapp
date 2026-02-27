@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "vite build",
+    "vercel-build": "npm run build",
     "dev": "vite",
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
