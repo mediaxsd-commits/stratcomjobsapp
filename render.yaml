@@ -7,7 +7,6 @@ services:
   - type: web
     name: stratcom-jobs
     runtime: static
-    plan: starter
     buildCommand: npm install && npm run build
     staticPublishPath: dist
     pullRequestPreviewsEnabled: true
